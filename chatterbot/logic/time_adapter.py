@@ -13,6 +13,8 @@ class TimeLogicAdapter(LogicAdapter):
         from nltk import NaiveBayesClassifier
 
         self.positive = [
+            '現在幾點了',
+            '你知道現在幾點嗎',
             'what time is it',
             'do you know the time',
             'do you know what time it is',
